@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@drawable/mod1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/mod1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<RelativeLayout android:gravity="center_vertical" android:background="@drawable/mod1" android:layout_width="fill_parent" android:layout_height="36.0dip" android:onClick="OpenVP">
+			<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#ffff4f06" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<include layout="@layout/techo4" />
+		</RelativeLayout>
+	</LinearLayout>
